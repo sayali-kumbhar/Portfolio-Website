@@ -137,7 +137,7 @@ with st.container():
     with text_column:
         st.subheader("Fake News Detection using Machine Learning")
         st.write(
-            """In this project I have performed feature extraction on the dataset and detected weather the news is fake or not.
+            """In this project I have performed feature extraction on the dataset and detected wether the news is fake or not.
             """
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Fake-News-Detection-Using-Machine-learning)")
@@ -182,7 +182,7 @@ with st.container():
     with text_column:
         st.subheader("Machine Learning Student")
         st.write("Company-Applied AI")
-        st.write("I have learnt data is most important thing and how to find insights from data by applying concepts like Machine Learning from Applied AI,Where I have learned skill like Machine Learning,Different Data Visualization tools like matplotlib,seaborn,Exploratory data analysis,Basics of Deep Learning,Flask,Streamlit")
+        st.write("I have learnt data is most important thing and how to find insights from data by applying concepts like Machine Learning ,I have learned skill like Different Data Visualization tools(matplotlib,seaborn),Exploratory data analysis,Basics of Deep Learning,Flask,Streamlit.")
         st.markdown("[Certificate of completion](https://www.appliedaicourse.com/certificate/f8c11903c7)")
 
 #---Additional Information---
@@ -207,7 +207,7 @@ with st.container():
         st.header("Contact me")
         st.write("##")
         st.write(
-            "Email me: sayalisureshkumbhar@gmail.com")
+            "Email Id: sayalisureshkumbhar@gmail.com")
         st.write("Connect with me on linkedin:-https://www.linkedin.com/in/sayali-kumbhar/"""
         )
     with left_column:
