@@ -185,6 +185,17 @@ with st.container():
         st.write("I have learnt data is most important thing and how to find insights from data by applying concepts like Machine Learning ,I have learned skill like Different Data Visualization tools(matplotlib,seaborn),Exploratory data analysis,Basics of Deep Learning,Flask,Streamlit.")
         st.markdown("[Certificate of completion](https://www.appliedaicourse.com/certificate/f8c11903c7)")
 
+#---Certifications---
+with st.container():
+    st.write("---")
+    st.header("Certifications")
+    st.write("##")
+    with text_column:
+        st.subheader("British Airways Virtual Experience Program on Forage")
+        st.write("I completed practical tasks in: Web scraping to gain company insights Predicting customer buying behaviour")
+        st.markdown("[Certificate of completion](https://drive.google.com/file/d/1pdvoaviCk--ECwhKEIn0LtoS6YuaTclr/view?usp=sharing)")
+
+                 
 #---Additional Information---
 with st.container():
     st.write("---")
