@@ -191,7 +191,7 @@ with st.container():
     st.header("Certifications")
     st.write("##")
     with text_column:
-        st.subheader("British Airways Virtual Experience Program on Forage")
+        st.write("British Airways Virtual Experience Program on Forage")
         st.write("I completed practical tasks in: Web scraping to gain company insights Predicting customer buying behaviour")
         st.markdown("[Certificate of completion](https://drive.google.com/file/d/1pdvoaviCk--ECwhKEIn0LtoS6YuaTclr/view?usp=sharing)")
 
