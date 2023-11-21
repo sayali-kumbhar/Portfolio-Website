@@ -64,6 +64,7 @@ with st.container():
         st.write("##")
         st.write(
             """
+            - Prompt Engineering \n
             - Python \n
             - Machine Learning \n
             - Deep Learning \n
