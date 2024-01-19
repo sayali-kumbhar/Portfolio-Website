@@ -64,23 +64,24 @@ with st.container():
         st.write("##")
         st.write(
             """
-            - Prompt Engineering \n
+            Prompt Engineering \n
+            Programming Proficiency \n
             - Python \n
-            - Machine Learning \n
-            - Deep Learning \n
-            - Data Visualization \n
-            - EDA \n
-            - Seaborn \n
-            - Matplotlib \n
+            Data Manupulation and Analysis \n
             - Numpy \n
             - Pandas \n
+            Data Visualization \n
+            - Seaborn \n
+            - Matplotlib \n
+            - Power BI
+            Machine Learning Tools \n
+            - Machine Learning
             - Scikit Learn \n
+            Model Deployment \n
             - Flask \n
             - Streamlit \n
-
-            Certifications:
-            - Microsoft Certification On SQL
-            - Workshop on Python Programming Languge
+            Database Skills \n
+            - MySQL
             """
         )
     with right_column:
@@ -123,12 +124,11 @@ with st.container():
     with image_column:
         st.image(img_twitter_sentiment,width=200)
     with text_column:
-        st.subheader("Twitter Sentiment Analysis using Machine Learning")
+        st.subheader("Amazon Fine food Reviews Analysis")
         st.write(
-            """Task of this project is developing a sentiment analysis model using
-NLP techniques to categorize a tweet as Positive or Negative."""
+            """Task of this project is from given reviews Determine whether the review is positive/negative."""
         )
-        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Twitter-Senntiment-Analysis-Using-Machine-Learning)")
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Amazon-fine-food-reviews-analysis)")
 
 
 with st.container():
@@ -149,12 +149,12 @@ with st.container():
     with image_column:
         st.image(img_stress_detection,width=200)
     with text_column:
-        st.subheader("Stress Detection using Machine Learning")
+        st.subheader("Pizza Sales Data Visualization using Power BI tool")
         st.write(
-            """This problem is binary classification problem. To solve this problem I have used Bernoulli Naive Bayes. if person is having stress then output is stress else no stress.
-            """
+            """Analyze key indicators for pizza sales data to gain.
+insights into business performance."""
         )
-        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Stress-Detection-using-Machine-Learning)")
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Pizza-Sales-Data-Visualization-using-Power-Bi-)")
 
 
 #----Experience----
