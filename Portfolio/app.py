@@ -73,15 +73,15 @@ with st.container():
             Data Visualization \n
             - Seaborn \n
             - Matplotlib \n
-            - Power BI
+            - Power BI \n
             Machine Learning Tools \n
-            - Machine Learning
+            - Machine Learning \n
             - Scikit Learn \n
             Model Deployment \n
             - Flask \n
             - Streamlit \n
             Database Skills \n
-            - MySQL
+            - MySQL \n
             """
         )
     with right_column:
