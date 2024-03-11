@@ -24,7 +24,6 @@ img_flight_fare=Image.open(r"Portfolio/image/flight fare prediction.jpg")
 img_health_expense=Image.open(r"Portfolio/image/healthcare.png")
 img_twitter_sentiment=Image.open(r"Portfolio/image/twitter sentiment analysis.jpg")
 img_fake_news= Image.open(r"Portfolio/image/fake news.jpg")
-img_stress_detection=Image.open(r"Portfolio/image/stress detection.jpg")
 img_hackerrank_profile=Image.open(r"Portfolio/image/Hackerrank Profile.png")
 img_gilbert_research=Image.open(r"Portfolio/image/gilbert research centre.png")
 img_applied_AI=Image.open(r"Portfolio/image/Applied AI.png")
@@ -73,7 +72,6 @@ with st.container():
             Data Visualization \n
             - Seaborn \n
             - Matplotlib \n
-            - Power BI \n
             Machine Learning Tools \n
             - Machine Learning \n
             - Scikit Learn \n
@@ -143,18 +141,6 @@ with st.container():
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Fake-News-Detection-Using-Machine-learning)")
     
-with st.container():
-    with st.container():
-        image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_stress_detection,width=200)
-    with text_column:
-        st.subheader("Pizza Sales Data Visualization using Power BI tool")
-        st.write(
-            """Analyze key indicators for pizza sales data to gain.
-insights into business performance."""
-        )
-        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Pizza-Sales-Data-Visualization-using-Power-Bi-)")
 
 
 #----Experience----
