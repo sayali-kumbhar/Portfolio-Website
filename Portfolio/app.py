@@ -37,16 +37,11 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.subheader("Hi :wave:, I am Sayali Kumbhar")
-        st.title("Aspiring Data Scientist,Machine Learning Engineer")
+        st.title("Aspiring Data Scientist,Machine Learning Engineer,Python Developer")
         st.write(
             """
-            I am an aspiring data scientist who loves finding patterns 
-            and connecting dots,passionate about developing data driven 
-            products with data science,machine learning,deep learning.
-            I have an academic background in Computer Engineering.
-            I completed Applied Machine learning course from Applied AI,
-            also I have a 3 months of experiance as a data science and 
-            machine learning intern.
+            Python Enthusiast & Emerging Data Maestro | 
+            Transforming Ideas into Intelligent Solutions 🌟| passionate about writting blogs 
             """
         )
     
