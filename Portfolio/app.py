@@ -40,8 +40,9 @@ with st.container():
         st.title("Aspiring Data Scientist,Machine Learning Engineer,Python Developer")
         st.write(
             """
-            Python Enthusiast & Emerging Data Maestro | 
-            Transforming Ideas into Intelligent Solutions 🌟| passionate about writting blogs 
+            "Passionate Python Developer 
+            | Enthusiastic about Machine Learning 
+            | Seeking Opportunities to Innovate and Grow
             """
         )
     
