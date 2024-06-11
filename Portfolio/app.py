@@ -20,6 +20,7 @@ local_css(r"Portfolio/style.css")
 lottie_data=load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_qp1q7mct.json")
 lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_glp2wakj.json")
 lottie_reach_me=load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_gaplvsns.json")
+img_blog_website=Image.open(r"Portfolio/image/blog.jpg")
 img_flight_fare=Image.open(r"Portfolio/image/flight fare prediction.jpg")
 img_health_expense=Image.open(r"Portfolio/image/healthcare.png")
 img_twitter_sentiment=Image.open(r"Portfolio/image/twitter sentiment analysis.jpg")
@@ -92,6 +93,19 @@ with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
+
+
+    with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_blog_website,width=200)
+    with text_column:
+        st.subheader("Blog Application")
+        st.write(
+            """Created Blog Application where I can add my blog and user can share comment on blog"""
+        )
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Blog-Application-using-Django)")
+
 
     with st.container():
         image_column, text_column = st.columns((1,2))
