@@ -37,7 +37,6 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.subheader("Hi :wave:, I am Sayali Kumbhar")
-        st.title("Aspiring Data Scientist,Machine Learning Engineer,Python Developer")
         st.write(
             """
             "Passionate Python Developer 
