@@ -62,27 +62,35 @@ with st.container():
     with left_column:
         st.header("Skills Which I have")
         st.write("##")
-        st.write(
-            """
-            Prompt Engineering \n
-            Programming Proficiency \n
-            - Python \n
-            Data Manupulation and Analysis \n
-            - Numpy \n
-            - Pandas \n
-            Data Visualization \n
-            - Seaborn \n
-            - Matplotlib \n
-            Machine Learning Tools \n
-            - Machine Learning \n
-            - Scikit Learn \n
+        col1,col2=st.columns(2)
+        with col1:
+            st.write(
+                """
+                Prompt Engineering \n
+                Programming Proficiency \n
+                - Python \n
+                Data Manupulation and Analysis \n
+                - Numpy \n
+                - Pandas \n
+                Data Visualization \n
+                - Seaborn \n
+                - Matplotlib \n
+                Machine Learning Tools \n
+                - Machine Learning \n
+                - Scikit Learn \n""")
+        with col2:
+            st.write("""
             Model Deployment \n
             - Flask \n
             - Streamlit \n
             Database Skills \n
             - MySQL \n
-            """
-        )
+            - Github \n
+            - Git \n
+            - Django \n
+            - HTML \n
+            - CSS \n
+            """)
     with right_column:
         st_lottie(lottie_coding, height=600, key="coding")
 
