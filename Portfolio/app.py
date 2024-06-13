@@ -235,7 +235,8 @@ with st.container():
         st.write("##")
         st.write(
             "Email Id: sayalisureshkumbhar@gmail.com")
-        st.write("Connect with me on linkedin:-https://www.linkedin.com/in/sayali-kumbhar/""")
-        st.write("Follow me on Medium:-https://medium.com/@sayalisureshkumbhar")
+        st.write("Connect with me on linkedin:- https://www.linkedin.com/in/sayali-kumbhar/""")
+        st.write("Here is My GitHub Profile link:- https://github.com/sayali-kumbhar")
+        st.write("Follow me on Medium:- https://medium.com/@sayalisureshkumbhar")
     with left_column:
         st_lottie(lottie_reach_me, height=300, key="contact")
