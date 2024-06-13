@@ -40,7 +40,7 @@ with st.container():
         st.subheader("Hi :wave:, I am Sayali Kumbhar")
         st.write(
             """
-            "Passionate Python Developer 
+            Passionate Python Developer 
             | Enthusiastic about Machine Learning 
             | Seeking Opportunities to Innovate and Grow
             """
