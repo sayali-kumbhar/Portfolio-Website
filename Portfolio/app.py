@@ -172,7 +172,7 @@ or Benign tumor based on the attributes in the given dataset.  """
     
 
     with st.container():
-       image_column, text_column = st.columns((1, 2))
+        image_column, text_column = st.columns((1, 2))
         with image_column:
             st.image(img_blog_website,width=200)
         with text_column:
