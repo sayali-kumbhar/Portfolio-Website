@@ -100,40 +100,45 @@ with st.container():
 
     with st.container():
         image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_health_expense,width=200)
+        with text_column:
+            st.subheader("Breast Cancer Wisconsin Diagnosis")
+            st.write(
+            """predict whether the given patient is having Malignant 
+or Benign tumor based on the attributes in the given dataset.  """
+        )
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Breast-Cancer-Wisconsin)")
+
+    with st.container():
+        image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_job_portal_website,width=200)
+        st.image(img_flight_fare,width=200)
     with text_column:
-        st.subheader("Job Portal Website")
+        st.subheader("Flight Fare Prediction Using Machine Learning")
         st.write(
+                """The main goal is to predict the fares of the flights based on different factors available in the provided dataset."""
+            )
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Flight-Fare-Prediction-using-machine-learning)")
+
+    
+    
+    with st.container():
+    
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_job_portal_website,width=200)
+        with text_column:
+            st.subheader("Job Portal Website")
+            st.write(
             """The objective of this python project is to develop an online portal where recruiters can post job requirements, 
             they can search for candidates. Candidates can search for job openings and apply."""
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/job-portal-website-using-Django/tree/main)")
     
-    
-    with st.container():
-        image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_blog_website,width=200)
-    with text_column:
-        st.subheader("Blog Application")
-        st.write(
-            """Created Blog Application where I can add my blog and user can share comment on blog"""
-        )
-        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Blog-Application-using-Django)")
 
-
-    with st.container():
-        image_column, text_column = st.columns((1,2))
-        with image_column:
-            st.image(img_flight_fare,width=200)
-        with text_column:
-            st.subheader("Flight Fare Prediction Using Machine Learning")
-            st.write(
-                """The main goal is to predict the fares of the flights based on different factors available in the provided dataset."""
-            )
-            st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Flight-Fare-Prediction-using-machine-learning)")
-
+   
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -171,6 +176,17 @@ with st.container():
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Fake-News-Detection-Using-Machine-learning)")
     
+
+ with st.container():
+        image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_blog_website,width=200)
+    with text_column:
+        st.subheader("Blog Application")
+        st.write(
+            """Created Blog Application where I can add my blog and user can share comment on blog"""
+        )
+        st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Blog-Application-using-Django)")
 
 
 #----Experience----
