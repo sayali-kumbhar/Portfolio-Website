@@ -112,18 +112,14 @@ or Benign tumor based on the attributes in the given dataset.  """
 
     with st.container():
         image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_flight_fare,width=200)
-    with text_column:
-        st.subheader("Flight Fare Prediction Using Machine Learning")
-        st.write(
+        with image_column:
+            st.image(img_flight_fare,width=200)
+        with text_column:
+            st.subheader("Flight Fare Prediction Using Machine Learning")
+            st.write(
                 """The main goal is to predict the fares of the flights based on different factors available in the provided dataset."""
             )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Flight-Fare-Prediction-using-machine-learning)")
-
-    
-    
-    with st.container():
     
     with st.container():
         image_column, text_column = st.columns((1, 2))
@@ -137,53 +133,51 @@ or Benign tumor based on the attributes in the given dataset.  """
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/job-portal-website-using-Django/tree/main)")
     
-
-   
-with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_health_expense,width=200)
-    with text_column:
-        st.subheader("Healthcare Expense Predictor")
-        st.write(
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_health_expense,width=200)
+        with text_column:
+            st.subheader("Healthcare Expense Predictor")
+            st.write(
             """The aim of this project is building a web application which
                calculates expenses using Flask Framework"""
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Implementation-of-Flask-)")
 
 
-with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_twitter_sentiment,width=200)
-    with text_column:
-        st.subheader("Amazon Fine food Reviews Analysis")
-        st.write(
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_twitter_sentiment,width=200)
+        with text_column:
+            st.subheader("Amazon Fine food Reviews Analysis")
+            st.write(
             """Task of this project is from given reviews Determine whether the review is positive/negative."""
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Amazon-fine-food-reviews-analysis)")
 
 
-with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_fake_news,width=200)
-    with text_column:
-        st.subheader("Fake News Detection using Machine Learning")
-        st.write(
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_fake_news,width=200)
+        with text_column:
+            st.subheader("Fake News Detection using Machine Learning")
+            st.write(
             """In this project I have performed feature extraction on the dataset and detected wether the news is fake or not.
             """
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Fake-News-Detection-Using-Machine-learning)")
     
 
- with st.container():
-        image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_blog_website,width=200)
-    with text_column:
-        st.subheader("Blog Application")
-        st.write(
+    with st.container():
+       image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_blog_website,width=200)
+        with text_column:
+            st.subheader("Blog Application")
+            st.write(
             """Created Blog Application where I can add my blog and user can share comment on blog"""
         )
         st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Blog-Application-using-Django)")
