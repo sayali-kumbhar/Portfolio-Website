@@ -22,6 +22,8 @@ lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_g
 lottie_reach_me=load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_gaplvsns.json")
 img_job_portal_website=Image.open(r"Portfolio/image/job portal.jpeg")
 img_blog_website=Image.open(r"Portfolio/image/blog.jpg")
+img_cancer=Image.open(r"Portfolio/image/healthcare.jfif")
+img_titanic=Image.open(r"Portfolio/image/titanic.jfif")
 img_flight_fare=Image.open(r"Portfolio/image/flight fare prediction.jpg")
 img_health_expense=Image.open(r"Portfolio/image/healthcare.png")
 img_twitter_sentiment=Image.open(r"Portfolio/image/twitter sentiment analysis.jpg")
@@ -101,7 +103,7 @@ with st.container():
     with st.container():
         image_column, text_column = st.columns((1, 2))
         with image_column:
-            st.image(img_health_expense,width=200)
+            st.image(img_cancer,width=200)
         with text_column:
             st.subheader("Breast Cancer Wisconsin Diagnosis")
             st.write(
@@ -159,6 +161,21 @@ or Benign tumor based on the attributes in the given dataset.  """
             """
         )
             st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Fake-News-Detection-Using-Machine-learning)")
+    
+
+
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.image(img_titanic,width=200)
+        with text_column:
+            st.subheader("Titanic Survival Prediction Using Machine Learning")
+            st.write(
+            """predict the survival chances of the Titanic passengers 
+        using the given information about their sex, age, etc. 
+            """
+        )
+            st.markdown("[Full Source Code...](https://github.com/sayali-kumbhar/Titanic-Survival-Prediction-Using-Machine-Learning)")
     
 
     with st.container():
